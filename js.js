@@ -12,3 +12,8 @@ var city = ["New York", "Cleveland", "Chicago"];
 
 console.log("My favorite city is " + city[0]);
 
+var blue = 19;
+var red = 22;
+var yellow = 100;
+
+console.log(yellow - blue);
