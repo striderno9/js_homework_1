@@ -17,3 +17,13 @@ var red = 22;
 var yellow = 100;
 
 console.log(yellow - blue);
+
+// This is an example of a comment in js
+
+// And this is 
+// also an example
+// of a comment on multiple lines
+
+function LogToHTML() {
+	document.getElementById("change").innerHTML = "Told ya!";
+}
