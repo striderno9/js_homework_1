@@ -27,3 +27,4 @@ console.log(yellow - blue);
 function LogToHTML() {
 	document.getElementById("change").innerHTML = "Told ya!";
 }
+
