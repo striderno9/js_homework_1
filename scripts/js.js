@@ -28,3 +28,15 @@ function LogToHTML() {
 	document.getElementById("change").innerHTML = "Told ya!";
 }
 
+var number = 100;
+if (number === 71) {
+	console.log("This isn't 100");
+} else if (number === 55) {
+	console.log("Neither is this");
+} else if (number === 100) {
+	console.log("Got it!");
+} else {
+	console.log("Nope");
+}
+
+
