@@ -28,15 +28,42 @@ function LogToHTML() {
 	document.getElementById("change").innerHTML = "Told ya!";
 }
 
+
+
+// adding to my cheat cheat for Sesson 6 homework
+
+
+
 var number = 100;
-if (number === 71) {
-	console.log("This isn't 100");
+
+if (number <= 71) {
+	console.log("This won't work");
 } else if (number === 55) {
-	console.log("Neither is this");
+	console.log("this is fifty-five");
 } else if (number === 100) {
-	console.log("Got it!");
+	console.log("boom");
 } else {
-	console.log("Nope");
+	console.log("Nothing");
 }
+
+function closing(signature) {
+	return console.log("Jason was here")
+}
+
+closing();
+
+function subtractNumbers(a, b) {
+	return a - b;
+}
+
+var minus = subtractNumbers( 1000000, 30000);
+
+console.log(minus);
+
+
+
+
+
+
 
 
